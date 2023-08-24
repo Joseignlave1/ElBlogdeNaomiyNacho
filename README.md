@@ -1,2 +1,0 @@
-# ElBlogdeNaomiyNacho
-blog en proceso
