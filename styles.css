@@ -1,0 +1,108 @@
+.titles{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: black;
+    margin-left: -2cm;
+
+}
+.buttons-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 6cm
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle{
+  text-align: center ;
+  margin-left: -4cm;
+  font-size: 2em;  
+  font-family: 'Caveat', cursive;
+  color: black;
+}
+.copyright{
+    font-family: 'Caveat',cursive;
+    text-align: center;
+    margin-left: -4cm;
+}
+
+.button1{
+    background-color: white; /* Cambio el fondo a blanco */
+    border: none;
+    color: black; /* Cambio el color de texto */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Caveat', cursive;
+    width: 400px;
+
+}
+
+.button1,
+.button2,
+.button3,
+.button4{
+    transition: 0.3s, transform 0.3s;
+}
+
+.button1:active,
+.button1:focus,
+.button2:active,
+.button2:focus,
+.button3:active,
+.button3:focus,
+.button4:active,
+.button4:focus {
+    color: #111; /* Cambia el color del texto a un negro más oscuro */
+    transform: scale(1.05); /* Escala el botón ligeramente */
+}
+
+.button2{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Caveat', cursive;
+    width: 180px; /* Cambio el ancho de los botones*/
+}
+.button3{
+    background-color: white; /* Cambio el fondo a blanco */
+    border: none;
+    color: black; /* Cambio el color de texto */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Caveat', cursive;
+
+}
+.button4{
+    background-color: white; /* Cambio el fondo a blanco */
+    border: none;
+    color: black; /* Cambio el color de texto */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 0;
+    margin-left: 0;
+    font-family: 'Caveat', cursive;
+}
+
