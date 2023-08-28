@@ -106,3 +106,27 @@
     font-family: 'Caveat', cursive;
 }
 
+/* Buscador*/
+#ctn-icon-search{
+    position: absolute;
+    right: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#ctn-icon-search i{
+    font-size: 18px;
+    color: #111;
+    cursor: pointer;
+    transition: all 300ms;
+}
+#ctn-icon-search i:hover{
+    color:rgba(38, 120, 202, 0.975) ;
+}
+
+#ctn-bars-search{
+    position: fixed;
+    top: 80px;
+}
